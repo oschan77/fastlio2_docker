@@ -1,9 +1,5 @@
 #!/bin/bash
 mkdir docker_ws
-cd docker_ws
-mkdir BAG
-mkdir PCD
-cd ..
 
 # Allow X server to be accessed from the local machine
 xhost +local:
@@ -28,3 +24,9 @@ docker run -itd \
   --env="DISPLAY=$DISPLAY" \
   oschan77/lscm_unimap_fastlio2:latest \
   /bin/bash
+
+# Create BAG and PCD folders
+cd docker_ws
+mkdir BAG
+mkdir PCD
+cd ..
