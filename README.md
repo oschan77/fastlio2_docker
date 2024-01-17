@@ -1,5 +1,5 @@
 1. Install Docker
-2. Clone this repo.
+2. Clone this repo to /home/$USER (If not, modify the path in run_container.sh).
 3. cd fastlio2_docker/
 4. sudo chmod +x run_container.sh rosbag2pcd.sh test.sh
 5. ./run_container.sh
