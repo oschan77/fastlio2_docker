@@ -9,7 +9,7 @@ cd ..
 xhost +local:
 
 # Container name
-CONTAINER_NAME="unimap_fastlio2"
+CONTAINER_NAME="fastlio2"
 
 # Run the Docker container
 docker run -itd \
