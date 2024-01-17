@@ -13,7 +13,7 @@ docker run -itd \
   --user mars_ugv \
   --network host \
   --ipc=host \
-  -v /home/$USER/fastlio2_docker/docker_ws:/home/mars_ugv/docker_ws \
+  -v ./docker_ws:/home/mars_ugv/docker_ws \
   --privileged \
   --env="QT_X11_NO_MITSHM=1" \
   --volume="/etc/localtime:/etc/localtime:ro" \
