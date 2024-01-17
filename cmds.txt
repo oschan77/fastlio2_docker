@@ -1,0 +1,2 @@
+# Access the Docker container
+docker exec -it fastlio2 /bin/bash
