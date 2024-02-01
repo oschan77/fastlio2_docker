@@ -27,8 +27,8 @@ docker exec fastlio2 /bin/bash -c "
   done ;
 "
 
-curl --location 'http://192.168.10.82:8000/user/create_file?destination_path=paper.pdf%20(S%20a.m.).pdf&description=test&user_name=breeze_db6&map_name=breeze_db9_1' \
+curl --location 'http://192.168.10.82:8000/user/create_file?description=test&user_name=breeze_db9&map_name=breeze_db9_1' \
 --header 'Connection: close' \
 --header 'Keep-Alive: True' \
---header 'token: glpat-Z2M6CpdKjUW_sfnqq7aN' \
+--header 'token: glpat-CMh8iws4reRKWyYyeGvT' \
 --form 'file=@"./docker_ws/PCD/scans.pcd"'
