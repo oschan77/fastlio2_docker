@@ -2,7 +2,7 @@
 1. Install Docker
 2. git clone https://github.com/oschan77/fastlio2_docker.git
 3. cd fastlio2_docker/
-4. sudo chmod +x run_container.sh rosbag2pcd.sh test.sh
+4. sudo chmod +x run_container.sh rosbag2pcd_vld.sh rosbag2pcd_otr32.sh
 5. ./run_container.sh
 
 ## Rosbag to PCD (Velodyne)
